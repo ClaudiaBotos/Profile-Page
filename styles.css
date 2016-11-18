@@ -93,7 +93,7 @@ a:hover {
 
 #background {
   text-align: center;
-  background: url('../images/romania.jpg') ;
+  background: url('images/romania.jpg') ;
    background-repeat: no-repeat;
    background-position:  top center;
    background-size: cover;
@@ -193,11 +193,11 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(../images/twitter.svg);
+  background-image: url(images/twitter.svg);
 }
 
 a.github {
-  background-image: url(../images/github.svg);
+  background-image: url(images/github.svg);
 }
 a.social:hover {
   opacity: 1;
@@ -211,7 +211,7 @@ a.social:hover {
 /* About Page */
 
 #wrapper {
-    width: 90%
+    width: 90%;
     margin: 10px auto;
     padding-top: 40px;
     overflow: auto;
