@@ -91,12 +91,11 @@ a:hover {
   color: white
 }
 
-#background {
+header {
   text-align: center;
-  background: url('images/romania.jpg') ;
-   background-repeat: no-repeat;
-   background-position:  top center;
-   background-size: cover;
+  background: url('images/romania.jpg') no-repeat top center ;
+background-size: cover;
+    overflow: hidden;
   padding-top: 60px;
 }
 
@@ -225,16 +224,17 @@ padding: 10px;
 border: solid  #021B58;
 border-radius: 90%;
 float: right;
+
 }
 
 .primary {
  margin: 30px;
-  padding: 20px 20px 40px 40px;
-  max-width: 500px;
+  padding-top: 20px;
+max-width: 500px;
   text-align: left;
-  
- 
-}
+overflow: auto;
+  }
+
 
 
 
@@ -280,10 +280,9 @@ float: right;
     margin-left: 150px;
     padding: 40px;
     text-align: left;
-    position: relative;
-    font-size: 20px;
-        
-    }
+   font-size: 20px;
+    
+        }
 
   footer {
     font-size: 1.3em;
